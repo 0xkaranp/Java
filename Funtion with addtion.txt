@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class Main
+{
+   public static int addition(int add)
+   {
+       System.out.print(add);
+       return add;
+   }
+   public static void main(String[]args)
+   {
+       System.out.print("Enter two intergers\n");
+       Scanner sc = new Scanner(System.in);
+       int a = sc.nextInt();
+       int b= sc.nextInt();
+       int add=a+b;
+       
+       addition(add);
+   }
+
+
+}
+
